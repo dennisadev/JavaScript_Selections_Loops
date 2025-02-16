@@ -81,7 +81,7 @@ let start = Math.round(Math.random() * (10 - 1) + 1);
 
 for (let i = start; i <= n; i++) {
 
-    console.log(i)
+    console.log(i);
 
     if (i % fizzDivisor == 0) {
         result = "FIZZ";
